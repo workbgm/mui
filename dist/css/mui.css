@@ -275,7 +275,7 @@ th
 
     outline: none;
 
-    -webkit-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     -webkit-tap-highlight-color: transparent;
 }
 
@@ -793,9 +793,9 @@ p
             transition: .01s cubic-bezier(.1, .57, .1, 1);
     transform: translate(0px, 0px) translateZ(0px);
 
-    border: 1px solid rgba(255, 255, 255, .80196);
+    border: 1px solid rgba(255, 255, 255, .801961);
     border-radius: 2px;
-    background: rgba(0, 0, 0, .39804);
+    background: rgba(0, 0, 0, .398039);
 }
 
 .mui-plus-pullrefresh .mui-fullscreen .mui-scroll-wrapper .mui-scroll-wrapper, .mui-plus-pullrefresh .mui-fullscreen .mui-slider-group .mui-scroll-wrapper
@@ -903,7 +903,7 @@ p
     background: rgba(0, 0, 0, .4);
     box-shadow: -4px 0 4px rgba(0, 0, 0, .5), 4px 0 4px rgba(0, 0, 0, .5);
 
-    -webkit-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 .mui-off-canvas-wrap.mui-slide-in .mui-off-canvas-right
 {
@@ -1038,62 +1038,50 @@ p
     {
         -webkit-transform: rotate(0deg);
     }
-
     8.33333333%
     {
         -webkit-transform: rotate(30deg);
     }
-
     16.66666667%
     {
         -webkit-transform: rotate(60deg);
     }
-
     25%
     {
         -webkit-transform: rotate(90deg);
     }
-
     33.33333333%
     {
         -webkit-transform: rotate(120deg);
     }
-
     41.66666667%
     {
         -webkit-transform: rotate(150deg);
     }
-
     50%
     {
         -webkit-transform: rotate(180deg);
     }
-
     58.33333333%
     {
         -webkit-transform: rotate(210deg);
     }
-
     66.66666667%
     {
         -webkit-transform: rotate(240deg);
     }
-
     75%
     {
         -webkit-transform: rotate(270deg);
     }
-
     83.33333333%
     {
         -webkit-transform: rotate(300deg);
     }
-
     91.66666667%
     {
         -webkit-transform: rotate(330deg);
     }
-
     100%
     {
         -webkit-transform: rotate(360deg);
@@ -1105,62 +1093,50 @@ p
     {
         transform: rotate(0deg);
     }
-
     8.33333333%
     {
         transform: rotate(30deg);
     }
-
     16.66666667%
     {
         transform: rotate(60deg);
     }
-
     25%
     {
         transform: rotate(90deg);
     }
-
     33.33333333%
     {
         transform: rotate(120deg);
     }
-
     41.66666667%
     {
         transform: rotate(150deg);
     }
-
     50%
     {
         transform: rotate(180deg);
     }
-
     58.33333333%
     {
         transform: rotate(210deg);
     }
-
     66.66666667%
     {
         transform: rotate(240deg);
     }
-
     75%
     {
         transform: rotate(270deg);
     }
-
     83.33333333%
     {
         transform: rotate(300deg);
     }
-
     91.66666667%
     {
         transform: rotate(330deg);
     }
-
     100%
     {
         transform: rotate(360deg);
@@ -1905,7 +1881,7 @@ input[type='submit']:enabled:active, input[type='submit'].mui-active:enabled,
     margin: 10px;
 
     border-radius: 2px;
-    background-color: white;
+    background-color: #fff;
     background-clip: padding-box;
     box-shadow: 0 1px 2px rgba(0, 0, 0, .3);
 }
@@ -2833,14 +2809,14 @@ select
     font-family: 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 17px;
 
-    -webkit-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     -webkit-tap-highlight-color: transparent;
 }
 input:focus,
 textarea:focus,
 select:focus
 {
-    -webkit-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     -webkit-tap-highlight-color: transparent;
     -webkit-user-modify: read-write-plaintext-only;
 }
@@ -4164,7 +4140,6 @@ body > .mui-progressbar
 
         opacity: 0;
     }
-
     to
     {
         -webkit-transform: scaleY(1);
@@ -4180,7 +4155,6 @@ body > .mui-progressbar
 
         opacity: 0;
     }
-
     to
     {
         transform: scaleY(1);
@@ -4196,7 +4170,6 @@ body > .mui-progressbar
 
         opacity: 1;
     }
-
     to
     {
         -webkit-transform: scaleY(0);
@@ -4212,7 +4185,6 @@ body > .mui-progressbar
 
         opacity: 1;
     }
-
     to
     {
         transform: scaleY(0);
@@ -4226,7 +4198,6 @@ body > .mui-progressbar
     {
         -webkit-transform: translate3d(-50%, 0, 0) scaleX(.5);
     }
-
     100%
     {
         -webkit-transform: translate3d(100%, 0, 0) scaleX(.5);
@@ -4238,7 +4209,6 @@ body > .mui-progressbar
     {
         transform: translate3d(-50%, 0, 0) scaleX(.5);
     }
-
     100%
     {
         transform: translate3d(100%, 0, 0) scaleX(.5);
@@ -5610,3 +5580,5 @@ body > .mui-progressbar
 
     border: 0;
 }
+
+/*# sourceMappingURL=mui.css.map */
